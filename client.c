@@ -4,6 +4,10 @@
 #include <sys/socket.h>
 #include <netinet/in.h>
 #include <unistd.h>
+
+
+
+
 int main(int argc, char **argv){
 	int Socket  = socket(AF_INET,SOCK_STREAM,IPPROTO_TCP);
 
